@@ -46,8 +46,5 @@ g = threading.Thread(target=game) #Se instancia dos veces la clase threading cre
 t.start()
 g.start() #Se inicializan los dos threads a fin de ejecutarse en threading.
 
-if not g.is_alive():
-    t.
-
 #Se inicializa el programa, se imprime la fecha y ahora esperaremos un par de minutos para observar que efectivamente se trabaja en threading
 #Mientras se ejecuta la función timenow es posible continuar con la función game.
